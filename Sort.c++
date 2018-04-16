@@ -1,5 +1,3 @@
-// THIS IS THE PROVIDED CODE FOR PROGRAM #2, DSA 1, SPRING 2018
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -119,12 +117,8 @@ int main() {
   return 0;
 }
 
-// -------------------------------------------------
-// YOU MAY NOT CHANGE OR ADD ANY CODE ABOVE HERE !!!
-// -------------------------------------------------
-
-// You may add global variables, functions, and/or
-// class defintions here if you wish.
+// add global variables, functions, and/or
+// class defintions here 
 
 bool mylessthan1 (Data *pd1, Data *pd2) {
     if (pd1->val1 < pd2->val1) {
@@ -181,6 +175,4 @@ void sortDataList(list<Data *> &l, int field) {
   }
  } 
 
-
- //1998 entry always outputs over and over
 
